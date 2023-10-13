@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betlify Dashboard | Betlify Manager</title>
+
+    <!-- ANIMATE ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- SWIPER CSS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--POPPINS FONT LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!--OUTFIT FONT LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!--===============ICON SCOUT LINK=============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==============CSS FILE LINK==================-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!--================================NAVBAR SECTION================================-->
+    <nav>
+        <div class="container">
+            <div class="nav__logo">
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+            <div class="search__bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search....">
+            </div>
+            <div class="profile__area">
+                <div class="theme__btn">
+                    <i class="uil uil-sun active"></i>
+                </div>
+                <div class="profile__container">
+                    <div class="profile__image">
+                        <img src="assets/FB_IMG_1543676015872.png" alt="Profile Photo">
+                    </div>
+                    <h5>Bethel Joel</h5>
+                    <i class="uil uil-angle-down"></i>
+                </div>
+                <button class="menu__btn">
+                    <i class="uil uil-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--=============================END OF NAVBAR SECTION=====================================-->
+
+    <!--=============================MAIN SECTION=====================================-->
+    <main>
+        <!-- ASIDE -->
+        <aside>
+            <button id="close__btn">
+                <i class="uil uil-times"></i>
+            </button>
+            <div class="sidebar__container">
+                <a href="#" class="active">
+                    <i class="uil uil-dashboard"></i>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-chart"></i>
+                    <h4>Analytics</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-car"></i>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-wallet"></i>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-message"></i>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-envelope"></i>
+                    <h4>Messages</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-phone"></i>
+                    <h4>Help Center</h4>
+                </a>
+                <a href="#">
+                    <i class="uil uil-setting"></i>
+                    <h4>Settings</h4>
+                </a>
+            </div>
+            <div class="sidebar__updates">
+                <i class="uil uil-import"></i>
+                <h4>Check for Updates</h4>
+                <p>General Update</p>
+                <p>Security Update</p>
+                <a href="#">Update Now</a>
+            </div>
+        </aside>
+        <!-- MIDDLE SECTION -->
+        <section class="main__middle">
+            <div class="main__middle-header">
+                <h1>General Overview</h1>
+                <input type="date">
+            </div>
+
+            <!-- CARDS -->
+            <div class="main__cards">
+                <!-- Start of first Card -->
+                <div class="main__card">
+                    <div class="card__top">
+                        <div class="card__left">
+                            <img src="assets/BTC.png">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="assets/visa.png" class="image__right">
+                    </div>
+                    <!-- Card middle -->
+                    <div class="card__middle">
+                        <h1>$347,289</h1>
+                        <div class="card__chip">
+                            <img src="assets/card chip.png">
+                        </div>
+                    </div>
+                    <!-- Card Bottom -->
+                    <div class="card__bottom">
+                        <div class="card__bottom-left">
+                            <small>Card Holder</small>
+                            <h5>Bethel Nwogu</h5>
+                        </div>
+                        <div class="card__bottom-right">
+                            <div class="card__bottom-expiry">
+                                <small>Expiry</small>
+                                <h5>02/28</h5>
+                            </div>
+                            <div class="card__bottm-cvv">
+                                <small>CVV</small>
+                                <h5>096</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of first Card -->
+
+                <!-- Start of second Card -->
+                <div class="main__card">
+                    <div class="card__top">
+                        <div class="card__left">
+                            <img src="assets/ETH.png">
+                            <h2>EHT</h2>
+                        </div>
+                        <img src="assets/master card.png" class="image__right">
+                    </div>
+                    <!-- Card middle -->
+                    <div class="card__middle">
+                        <h1>$156,657</h1>
+                        <div class="card__chip">
+                            <img src="assets/card chip.png">
+                        </div>
+                    </div>
+                    <!-- Card Bottom -->
+                    <div class="card__bottom">
+                        <div class="card__bottom-left">
+                            <small>Card Holder</small>
+                            <h5>Bethel Nwogu</h5>
+                        </div>
+                        <div class="card__bottom-right">
+                            <div class="card__bottom-expiry">
+                                <small>Expiry</small>
+                                <h5>08/29</h5>
+                            </div>
+                            <div class="card__bottm-cvv">
+                                <small>CVV</small>
+                                <h5>078</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of second Card -->
+
+                <!-- Start of third Card -->
+                <div class="main__card">
+                    <div class="card__top">
+                        <div class="card__left">
+                            <img src="assets/EURO.png">
+                            <h2>EUR</h2>
+                        </div>
+                        <img src="assets/visa.png" class="image__right">
+                    </div>
+                    <!-- Card middle -->
+                    <div class="card__middle">
+                        <h1>$90,456</h1>
+                        <div class="card__chip">
+                            <img src="assets/card chip.png">
+                        </div>
+                    </div>
+                    <!-- Card Bottom -->
+                    <div class="card__bottom">
+                        <div class="card__bottom-left">
+                            <small>Card Holder</small>
+                            <h5>Bethel Nwogu</h5>
+                        </div>
+                        <div class="card__bottom-right">
+                            <div class="card__bottom-expiry">
+                                <small>Expiry</small>
+                                <h5>02/27</h5>
+                            </div>
+                            <div class="card__bottm-cvv">
+                                <small>CVV</small>
+                                <h5>087</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of third Card -->
+            </div>
+            <!-- END OF CARDS -->
+            <!-- START OF MONTHLY REPORT -->
+            <div class="monthly__reports">
+                <!-- Income Report -->
+                <div class="monthly__report">
+                    <h3>Income</h3>
+                    <div>
+                        <details>
+                            <h1>$68,567</h1>
+                            <h6 class="success">+5.6%</h6>
+                        </details>
+                        <p class="text__gray">Compared to $60,345 last Month</p>
+                    </div>
+                </div>
+                <!-- Expenses Report -->
+                <div class="monthly__report">
+                    <h3>Expenses</h3>
+                    <div>
+                        <details>
+                            <h1>$10,245</h1>
+                            <h6 class="danger">-4.5%</h6>
+                        </details>
+                        <p class="text__gray">Compared to $8,12 last Month</p>
+                    </div>
+                </div>
+                <!-- Cashback Report -->
+                <div class="monthly__report">
+                    <h3>Cashback</h3>
+                    <div>
+                        <details>
+                            <h1>$8,900</h1>
+                            <h6 class="success">+ 10.5%</h6>
+                        </details>
+                        <p class="text__gray">Compared to $6,345 last Month</p>
+                    </div>
+                </div>
+                <!-- TurnOver Report-->
+                <div class="monthly__report">
+                    <h3>Turnover</h3>
+                    <div>
+                        <details>
+                            <h1>$124,467</h1>
+                            <h6 class="danger">-9.7%</h6>
+                        </details>
+                        <p class="text__gray">Compared to $118,124 last Month</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF MONTHLY REPORT -->
+
+
+            <!-- START OF FAST PAYMENT -->
+            <div class="fast__payment">
+                <h2>Pay Now</h2>
+                <div class="payment__badges">
+                    <div class="payment__badge">
+                        <i class="uil uil-plus"></i>
+                    </div>
+                    <!-- Start of badge 1 -->
+                    <div class="payment__badge">
+                        <span class="bg-primary"></span>
+                        <div>
+                            <h5>Training</h5>
+                            <h4>$150</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 1 -->
+                    <!-- Start of badge 2 -->
+                    <div class="payment__badge">
+                        <span class="bg-success"></span>
+                        <div>
+                            <h5>internet</h5>
+                            <h4>$100</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 2 -->
+                    <!-- Start of badge 3 -->
+                    <div class="payment__badge">
+                        <span class="bg-danger"></span>
+                        <div>
+                            <h5>Electricity</h5>
+                            <h4>$158</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 3 -->
+                    <!-- Start of badge 4 -->
+                    <div class="payment__badge">
+                        <span class="bg-warning"></span>
+                        <div>
+                            <h5>Food</h5>
+                            <h4>$130</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 4 -->
+                    <!-- Start of badge 5 -->
+                    <div class="payment__badge">
+                        <span class="bg-success"></span>
+                        <div>
+                            <h5>Education</h5>
+                            <h4>$456</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 5 -->
+                    <!-- Start of badge 6 -->
+                    <div class="payment__badge">
+                        <span class="bg-danger"></span>
+                        <div>
+                            <h5>Movies</h5>
+                            <h4>$245</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 6 -->
+                    <!-- Start of badge 7 -->
+                    <div class="payment__badge">
+                        <span class="bg-warning"></span>
+                        <div>
+                            <h5>Calls</h5>
+                            <h4>$300</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 7 -->
+                    <!-- Start of badge 8 -->
+                    <div class="payment__badge">
+                        <span class="bg-dark"></span>
+                        <div>
+                            <h5>Transport</h5>
+                            <h4>$578</h4>
+                        </div>
+                    </div>
+                    <!-- End of badge 8 -->
+                </div>
+            </div>
+            <!-- END OF FAST PAYMENT -->
+
+            <!-- START OF CHART -->
+            <canvas id="chart"></canvas>
+
+            <!-- END OF CHART -->
+        </section>
+        <!-- RIGHT SECTION -->
+        <section class="main__right">
+            <!-- Investment -->
+            <div class="main__investments">
+                <div class="investments__header">
+                    <h2>Investments</h2>
+                    <a href="#">More <i class="uil uil-angle-right"></i></a>
+                </div>
+
+                <div class="main__investment">
+                    <img src="assets/monster.png">
+                    <h4>Monster</h4>
+                    <div class="investment__date-time">
+                        <p>10, Oct, 2023</p>
+                    </div>
+                    <div class="investment__amount">
+                        <p>$53,675</p>
+                        <small class="danger">-5.69%</small>
+                    </div>
+                </div>
+
+                <div class="main__investment">
+                    <img src="assets/uniliver.png">
+                    <h4>Unilever</h4>
+                    <div class="investment__date-time">
+                        <p>15, Nov, 2023</p>
+                    </div>
+                    <div class="investment__amount">
+                        <p>$90,456</p>
+                        <small class="success">+3.78%</small>
+                    </div>
+                </div>
+
+                <div class="main__investment">
+                    <img src="assets/tesla.png">
+                    <h4>Tesla</h4>
+                    <div class="investment__date-time">
+                        <p>22, Jan, 2023</p>
+                    </div>
+                    <div class="investment__amount">
+                        <p>$124,456</p>
+                        <small class="warning">*5.69%</small>
+                    </div>
+                </div>
+
+                <div class="main__investment">
+                    <img src="assets/mcdonalds.png">
+                    <h4>Mcdonalds</h4>
+                    <div class="investment__date-time">
+                        <p>22, Aug, 2023</p>
+                    </div>
+                    <div class="investment__amount">
+                        <p>$45,785</p>
+                        <small class="success">+5.69%</small>
+                    </div>
+                </div>
+            </div>
+            <!-- End of investment -->
+
+            <!-- TRANSACTION SECTION -->
+            <div class="main__transactions">
+                <div class="transaction__header">
+                    <h2>Recent Transactions</h2>
+                    <a href="#">More <i class="uil uil-angle-right"></i></a>
+                </div>
+
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-primary-light">
+                            <i class="uil uil-video"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Videos</h4>
+                            <p>02.12.2022</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-danger">
+                            <img src="assets/visa.png">
+                        </div>
+                    </div>
+                    <h2>$40</h2>
+                </div>
+                <!-- END OF TRANSACTION 1-->
+
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-success-light">
+                            <i class="uil uil-server"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Internet</h4>
+                            <p>22.09.2023</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-dark">
+                            <img src="assets/master card.png">
+                        </div>
+                    </div>
+                    <h2>$80</h2>
+                </div>
+                <!-- END OF TRANSACTION 2-->
+
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-warning-light">
+                            <i class="uil uil-chart"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Groceries</h4>
+                            <p>18.09.2023</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-warning">
+                            <img src="assets/visa.png">
+                        </div>
+                    </div>
+                    <h2>$145</h2>
+                </div>
+                <!-- END OF TRANSACTION 3-->
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-danger-light">
+                            <i class="uil uil-analysis"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Utilities</h4>
+                            <p>24.04.2023</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-danger">
+                            <img src="assets/visa.png">
+                        </div>
+                    </div>
+                    <h2>$180</h2>
+                </div>
+                <!-- END OF TRANSACTION 4-->
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-success-light">
+                            <i class="uil uil-car"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Transport</h4>
+                            <p>27.09.2023</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-success">
+                            <img src="assets/visa.png">
+                        </div>
+                    </div>
+                    <h2>$210</h2>
+                </div>
+                <!-- END OF TRANSACTION 5-->
+                <div class="main__transaction">
+                    <div class="transaction__service">
+                        <div class="service__icon bg-warning-light">
+                            <i class="uil uil-shop"></i>
+                        </div>
+                        <div class="service__details">
+                            <h4>Shopping</h4>
+                            <p>30.07.2023</p>
+                        </div>
+                    </div>
+                    <div class="transaction__card-details">
+                        <div class="card__details-card bg-dark">
+                            <img src="assets/master card.png">
+                        </div>
+                    </div>
+                    <h2>$200</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================================SCRIPT JS LINK===============================-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+        integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
